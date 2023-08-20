@@ -4,7 +4,6 @@ from django.core.exceptions import ValidationError
 from . import models
 from django.contrib.auth.models import User
 
-
 class ContactForm(forms.ModelForm):
     picture = forms.ImageField(
         widget=forms.FileInput(
